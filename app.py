@@ -14,7 +14,7 @@ from pathlib import Path
 
 import google.generativeai as genai
 
-my_key="Your_api_key_here"  # Replace with your actual API key
+my_key="Your_Gemini_API_Key_Here"  # Replace with your actual Gemini API key
 genai.configure(api_key=my_key)
 model = genai.GenerativeModel('models/gemini-2.5-flash')
 
